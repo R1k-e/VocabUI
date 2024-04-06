@@ -1,0 +1,32 @@
+A;B;C;Č;Ć;D;DŽ;Đ;E;F;G;H;I;J;K;L;LJ;M;N;NJ;O;P;R;S;Š;T;U;V;Z;Ž
+who:kog(a);what:što;nothing:ne ništa;again:opet/ponovo/ponovno;for the first time:prvi put;probably:vjerojatno;obviously:očito;for sure:sigurno;maybe:možda;almost:skoro;always:uvijek;every day:svaki dan;all the time:stalno;rarely:rijetko;sometimes:ponekad;usually:obično;often:često;not anymore:više ne;not ... yet:još ne;not ... at all:uopće ne;never:nikad ne;he:on;she:ona;still:još;already:već;still (emphasized):još uvijek
+saint:svetac:svetca;judge:sudac:sudca;sparrow:vrabac:vrapca;donkey:magarac:magarca;dog:pas:psa;son:sin:sina;seagull:galeb:galeba;husband:muž:muža;man/human:čovjek:čovjeka;horse:konj:konja;brother:brat:brata;store:trgovina:trgovinu;mug:šalica:šalicu;glass:čaša:čašu;grandmother:baka:baku;apple:jabuka:jabuku;soup:juha:juhu;coffee:kava:kavu;book:knjiga:knjigu;Mum:mama:mamu;song:pjesma:pjesmu;fish:riba:ribu;sister:sestra:sestru;dad:tata:tatu;aunt:teta:tetu;TV:televizija:televiziju;supper:večera:večeru;water:voda:vodu
+to travel:putovati:putujem:putuje
+to know:znati:znam:zna
+to know(someone):poznavati:poznajem:poznaje
+to cut:rezati:režem:reže
+to read:čitati:čitam:čita
+to cook:kuhati:kuham:kuha
+to sing:pjevati:pjevam:pjeva
+to work:raditi:radim:radi
+to swim:plivati:plivam:pliva
+to sleep:spavati:spavam:spava
+to learn, study:učiti:učim:uči
+to drive:voziti:vozim:vozi
+to run:trčati:trčim:trči
+to lie down:ležati:ležim:leži
+to eat:jesti:jedem:jede
+to write:pisati:pišem:piše
+to drink:piti:pijem:pije
+to cry:plakati:plačem:plače
+to dance:plesati:plešem:pleše
+to jump:skakati:skačem:skače
+to sit:sjediti:sjedim:sjedi
+to yawn:zijevati:zijevam:zijeva
+to wait:čekati:čekam:čeka
+to watch:gledati:gledam:gleda
+to have:imati:imam:ima
+to listen:slušati:slušam:sluša
+to search for:tražiti:tražim:traži
+to need:trebati:trebam:treba
+to know:znati:znam:zna
