@@ -69,6 +69,8 @@ class Entries():
     def grid(self, **kwargs):
         self.entry.grid(kwargs)
 
+
+
         
 ##Creating sound button widget
 
@@ -104,6 +106,24 @@ def verbsPractice():
     practiceWindow.title("Verbs")
     practiceWindow.protocol("WM_DELETE_WINDOW",lambda: topClosed(practiceWindow))
     practiceWindow.bind("<Escape>", lambda e: root.destroy())
+
+    ##Croatian Binds (surely later set this as a program-wide bind!)
+    def insertC1(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","č")
+    practiceWindow.bind("<Alt-c>",insertC1)
+    def insertC2(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","ć")
+    practiceWindow.bind("<Alt_L>1",insertC2)
+    def insertS(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","š")
+    practiceWindow.bind("<Alt-s>",insertS)
+    def insertZ(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","ž")
+    practiceWindow.bind("<Alt-z>",insertZ)
 
     ##setting up incorrect counter
     global incorrectVerb
@@ -210,7 +230,7 @@ def verbsPractice():
             if incorrectVerb >= 3:
                 for i in range(1, len(selected)):
                     verbL = Labels(practiceWindow,name = selected[i],varText= selected[i])
-                    verbL.grid(column=3, row = i)
+                    verbL.grid(column=4, row = i)
 
     ##setting up submit button
     
@@ -239,6 +259,25 @@ def nounsPractice():
     practiceWindow.protocol("WM_DELETE_WINDOW",lambda: topClosed(practiceWindow))
     practiceWindow.bind("<Escape>", lambda e: root.destroy())
 
+    ##Croatian characters
+    def insertC1(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","č")
+    practiceWindow.bind("<Alt-c>",insertC1)
+    def insertC2(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","ć")
+    practiceWindow.bind("<Alt_L>1",insertC2)
+    def insertS(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","š")
+    practiceWindow.bind("<Alt-s>",insertS)
+    def insertZ(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","ž")
+    practiceWindow.bind("<Alt-z>",insertZ)
+    
+  
     ##Setting up list of 5 nouns
     nouns = l[1].split(";")
     five = []
@@ -437,7 +476,26 @@ def croat_nouns():
     practiceWindow.title("croat_nouns")
     practiceWindow.protocol("WM_DELETE_WINDOW",lambda: topClosed(practiceWindow))
     practiceWindow.bind("<Escape>", lambda e: root.destroy())
+    def insertC1(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","č")
+    practiceWindow.bind("<Alt-c>",insertC1)
+    def insertC2(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","ć")
+    practiceWindow.bind("<Alt_L>1",insertC2)
+    def insertS(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","š")
+    practiceWindow.bind("<Alt-s>",insertS)
+    def insertZ(self):
+        currentWidge = practiceWindow.focus_get()
+        currentWidge.insert("insert","ž")
+    practiceWindow.bind("<Alt-z>",insertZ)
 
+    ###incorrect counter
+    global incorrectCNoun
+    incorrectCNoun = 0
     
     ###getting nouns:
     global l
@@ -476,6 +534,8 @@ def croat_nouns():
 
     feedback = StringVar()
     check = Label(practiceWindow, textvariable = feedback)
+
+
     
     ##Button command
     def Submit():
@@ -499,6 +559,13 @@ def croat_nouns():
             practiceWindow.destroy()
             #nounsPractice()
             nounsPractice()
+        elif remark == "incorrect":
+            global incorrectCNoun
+            incorrectCNoun += 1
+            if incorrectCNoun >= 3:
+                for i in range(1, len(selected)):
+                    CNounL = Labels(practiceWindow,name = selected[i],varText= selected[i])
+                    CNounL.grid(column=3, row = i)
 
     ##setting up submit button
     
