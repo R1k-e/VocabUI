@@ -1,7 +1,10 @@
 A;B;C;Č;Ć;D;DŽ;Đ;E;F;G;H;I;J;K;L;LJ;M;N;NJ;O;P;R;S;Š;T;U;V;Z;Ž
 who:kog(a);what:što;nothing:ne ništa;again:opet/ponovo/ponovno;for the first time:prvi put;probably:vjerojatno;obviously:očito;for sure:sigurno;maybe:možda;almost:skoro;always:uvijek;every day:svaki dan;all the time:stalno;rarely:rijetko;sometimes:ponekad;usually:obično;often:često;not anymore:više ne;not ... yet:još ne;not ... at all:uopće ne;never:nikad ne;he:on;she:ona;still:još;already:već;still (emphasized):još uvijek
-saint:svetac:svetca;judge:sudac:sudca;sparrow:vrabac:vrapca;donkey:magarac:magarca;dog:pas:psa;son:sin:sina;seagull:galeb:galeba;husband:muž:muža;man/human:čovjek:čovjeka;horse:konj:konja;brother:brat:brata;store:trgovina:trgovinu;mug:šalica:šalicu;glass:čaša:čašu;grandmother:baka:baku;apple:jabuka:jabuku;soup:juha:juhu;coffee:kava:kavu;book:knjiga:knjigu;Mum:mama:mamu;song:pjesma:pjesmu;fish:riba:ribu;sister:sestra:sestru;dad:tata:tatu;aunt:teta:tetu;TV:televizija:televiziju;supper:večera:večeru;water:voda:vodu
+city:grad:grad;Croatia:Hrvatska:Hrvatsku;America:Amerka:Amerku;saint:svetac:svetca;judge:sudac:sudca;sparrow:vrabac:vrapca;donkey:magarac:magarca;dog:pas:psa;son:sin:sina;seagull:galeb:galeba;husband:muž:muža;man/human:čovjek:čovjeka;horse:konj:konja;brother:brat:brata;store:trgovina:trgovinu;mug:šalica:šalicu;glass:čaša:čašu;grandmother:baka:baku;apple:jabuka:jabuku;soup:juha:juhu;coffee:kava:kavu;book:knjiga:knjigu;Mum:mama:mamu;song:pjesma:pjesmu;fish:riba:ribu;sister:sestra:sestru;dad:tata:tatu;aunt:teta:tetu;TV:televizija:televiziju;supper:večera:večeru;water:voda:vodu
 to travel:putovati:putujem:putuje
+to come, arrive:dolaziti:dolazim:dolazi
+to go:ići:idem:ide
+to leave:odlaziti:odlazim:odlazi
 to know:znati:znam:zna
 to know(someone):poznavati:poznajem:poznaje
 to cut:rezati:režem:reže
